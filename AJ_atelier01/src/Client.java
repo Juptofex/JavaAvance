@@ -6,6 +6,7 @@ public class Client {
     private String  nom;
     private String  prenom;
     private String telephone;
+    private Commande commandeEnCours;
 
     public Client(String nom, String prenom, String telephone) {
         this.nom = nom;
@@ -29,6 +30,18 @@ public class Client {
 
     public String getTelephone() {
         return telephone;
+    }
+
+    public Commande getCommandeEnCours() {
+        return commandeEnCours;
+    }
+
+    public boolean enregistrer(Commande commande) {
+
+    }
+
+    public boolean cloturerCommandeEnCours() {
+
     }
 
     public int hashCode() {
