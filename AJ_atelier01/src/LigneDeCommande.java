@@ -10,6 +10,10 @@ public class LigneDeCommande {
         this.prixUnitaire = pizza.calculerPrix();
     }
 
+    public Pizza getPizza() {
+        return pizza;
+    }
+
     public int getQuantite() {
         return quantite;
     }
@@ -24,5 +28,9 @@ public class LigneDeCommande {
 
     public double calculerPrixTotal() {
         return quantite * prixUnitaire;
+    }
+
+    public String toString() {
+        return  quantite + " " + pizza.getTitre() + "  à " + prixUnitaire ;
     }
 }

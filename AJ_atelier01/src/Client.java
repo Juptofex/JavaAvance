@@ -37,11 +37,27 @@ public class Client {
     }
 
     public boolean enregistrer(Commande commande) {
-
+        if (commandeEnCours != null) {
+            return false;
+        }
+        commandeEnCours = commande;
+        return true;
     }
 
     public boolean cloturerCommandeEnCours() {
+        if (commandeEnCours == null) {
+            return false;
+        }
+        commandeEnCours = null;
+        return true;
+    }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Client client = (Client) o;
+        return numero == client.numero;
     }
 
     public int hashCode() {

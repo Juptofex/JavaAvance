@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Objects;
 
 public abstract class Pizza {
 
@@ -58,6 +59,19 @@ public abstract class Pizza {
 
     public Iterator<Ingredient> iterator() {
         return ingredients.iterator();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pizza pizza = (Pizza) o;
+        return Objects.equals(titre, pizza.titre);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(titre);
     }
 
     @Override
