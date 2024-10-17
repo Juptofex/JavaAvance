@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AJ_atelier01/AJ_atelier01.iml" filepath="$PROJECT_DIR$/AJ_atelier01/AJ_atelier01.iml" />
       <module fileurl="file://$PROJECT_DIR$/AJ_atelier02/AJ_atelier02.iml" filepath="$PROJECT_DIR$/AJ_atelier02/AJ_atelier02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AJ_atelier03/AJ_atelier03.iml" filepath="$PROJECT_DIR$/AJ_atelier03/AJ_atelier03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AJ_atelier04/AJ_atelier04.iml" filepath="$PROJECT_DIR$/AJ_atelier04/AJ_atelier04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AJ_atelier05/AJ_atelier05.iml" filepath="$PROJECT_DIR$/AJ_atelier05/AJ_atelier05.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaAvance.iml" filepath="$PROJECT_DIR$/.idea/JavaAvance.iml" />
     </modules>
   </component>
