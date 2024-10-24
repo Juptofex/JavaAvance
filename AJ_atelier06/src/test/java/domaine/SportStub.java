@@ -1,3 +1,5 @@
+package domaine;
+
 import java.util.Set;
 
 public class SportStub implements Sport {
